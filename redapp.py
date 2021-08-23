@@ -3,6 +3,20 @@ import numpy as np
 import pandas as pd
 import time
 st.title("This is Red's App")
+
+#st.image(red.jpg, width=None)
+
+st.write(':sunglasses:')
+
+st.image("images/red.jpg", width=200)
+st.write("""
+        ### Redouane NOUAf
+        """)
+#st.markdown('<h1 style="color: Red;">Redouane NOUAF</h1>', unsafe_allow_html=True)
+
+st.image("images/kube.jpg")
+st.markdown('<h1 style="float: left;">Kubernetes</h1>', unsafe_allow_html=True)
+
 st.write("Using data to create a table:")
 st.write(pd.DataFrame({
     'Article id': [1, 2, 3, 4],
