@@ -50,7 +50,7 @@ pressed = left_column.button('3fett hna')
 if pressed:
     right_column.write("Sriwriw!")
 expander = st.expander("FAQ")
-expander.write("explanations explanations explanations explanations explanations explanations explanations... \n explanations explanations explanations explanations....")
+expander.write("explanations explanations explanations \n explanations explanations explanations explanations... \n explanations explanations explanations explanations....")
 'Starting a long computation...'
 # Add a placeholder
 latest_iteration = st.empty()
